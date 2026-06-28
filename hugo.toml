@@ -1,0 +1,49 @@
+baseURL = "https://clara-und-johannes.de"
+defaultContentLanguage = "de"
+languageCode = "de-DE"
+title = "Hochzeit von Clara & Johannes"
+copyright = "&copy; MMXXV Clara & [Johannes](https://johannes-arnold.de)"
+publishDir = "/srv/http/clara-und-johannes.de"
+
+[[module.imports]]
+path = "github.com/jpanther/lynx"
+
+[params]
+attribution = false
+robots = "noindex, nofollow"
+description = "Gästeseite zur Hochzeit von Clara & Johannes"
+
+[params.author]
+image = "kiss.png"
+
+[[params.author.links]]
+
+[params.author.links.0]
+icon = "cheer"
+href = "/thanks"
+text = "Danksagung"
+
+[params.author.links.1]
+icon = "upload"
+href = "https://cloud.jka.one/s/MiEA73ygmGFAMLD"
+text = "Bilder Teilen"
+
+[params.author.links.2]
+icon = "schedule"
+href = "/schedule"
+text = "Ablauf"
+
+[params.author.links.3]
+href = "/seating"
+icon = "table"
+text = "Tischordnung"
+
+[params.author.links.4]
+href = "/food"
+icon = "food"
+text = "Speiseplan"
+
+[params.author.links.5]
+href = "https://open.spotify.com/playlist/2f8q54EvjJAfcSyiwawevs?si=5429d8e2d83f4168&pt=7eec84fb96ca66f65b91aef638329adc"
+icon = "spotify"
+text = "Liederwünsche"

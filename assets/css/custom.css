@@ -1,0 +1,22 @@
+/*
+  Gradient Animation inspired by
+  https://dev.to/gmeben/animating-gradients-with-pure-css-3bi8
+
+  Note that I am using an analogous color (#2822ce) of the button color.
+*/
+
+.link-1 {
+    background: linear-gradient(45deg, rgb(126, 34, 206), #ce22c8, rgb(126, 34, 206), #ce22c8);
+    background-size: 300% 300%;
+    animation: gradient 5s linear infinite;
+  }
+
+
+@keyframes gradient {
+  0% {
+     background-position: 100% 0%
+     }
+   100% {
+     background-position: 0% 100%
+     }
+}
