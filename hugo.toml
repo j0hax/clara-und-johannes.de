@@ -15,6 +15,9 @@ path = "github.com/jpanther/lynx"
 attribution = false
 robots = "noindex, nofollow"
 description = "Gästeseite zur Hochzeit von Clara & Johannes"
+  [params.author]
+    name = "Johannes Arnold"
+    email = "johannes@arnold.onl"
 
 [params.author]
 image = "kiss.png"
