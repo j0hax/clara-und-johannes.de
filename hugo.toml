@@ -1,11 +1,13 @@
 baseURL = "https://clara-und-johannes.de"
 defaultContentLanguage = "de"
-languageCode = "de-DE"
 title = "Hochzeit von Clara & Johannes"
 copyright = "&copy; MMXXV Clara & [Johannes](https://johannes-arnold.de)"
 
 [[module.imports]]
-path = "github.com/jarnold/lynx"
+path = "github.com/jpanther/lynx"
+
+[module]
+  replacements = 'github.com/jpanther/lynx -> /var/home/johannes/Projects/lynx'
 
 [caches]
   [caches.images]
