@@ -5,7 +5,7 @@ title = "Hochzeit von Clara & Johannes"
 copyright = "&copy; MMXXV Clara & [Johannes](https://johannes-arnold.de)"
 
 [[module.imports]]
-path = "github.com/jpanther/lynx"
+path = "github.com/jarnold/lynx"
 
 [caches]
   [caches.images]
@@ -15,10 +15,11 @@ path = "github.com/jpanther/lynx"
 attribution = false
 robots = "noindex, nofollow"
 description = "Gästeseite zur Hochzeit von Clara & Johannes"
-  [params.author]
-    name = "Johannes Arnold"
-    email = "johannes@arnold.onl"
-    image = "kiss.png"
+
+[params.author]
+name = "Johannes Arnold"
+email = "johannes@arnold.onl"
+image = "kiss.png"
 
 [[params.author.links]]
 
